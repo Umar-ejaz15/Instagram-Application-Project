@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+  <div class="main text-white w-full h-screen flex flex-col justify-center items-center bg-zinc-800">
+    <form action="/register" class="w-96  border boder-black rounded-md flex flex-col gap-4 p-8" method="post">
+      <h1 class="text-4xl m-auto t ">Instagram</h1>
+      <p class="text-center">Sign up to see photos and videos from your friends.
+      </p>
+      <input class="text-xl  px-4 py-2  bg-transparent  border boder-black text-white  rounded-md" type="email" placeholder="email" name="email">
+      <input class="text-xl px-4 py-2  bg-transparent  border boder-black text-white  rounded-md" type="fullname" placeholder="fullname" name="fullname">
+      <input class="text-xl px-4 py-2  bg-transparent  border boder-black text-white  rounded-md" type="username" placeholder="username" name="username">
+      <input class="text-xl  px-4 py-2 bg-transparent  border boder-black text-white  rounded-md" type="password" placeholder="password" name="password">
+      <p class="text-sm text-center">People who use our service may have uploaded your contact information to Instagram. Learn more</p>
+      <input type="submit" value="Sign up" class="bg-blue-500 text-white px-4 py-2 rounded-md">
+    </form>
+    <p class="border boder-black py-2 w-96 mt-10 text-center" > 
+      Already have an account ?
+       <a class="text-blue-500" href=" /login"> login </a>
+    </p>
+    
+  </div>
+</body>
+
+</html>
